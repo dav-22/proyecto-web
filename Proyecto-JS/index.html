@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Proyect JS</title>
+
+	<!--ESTILOS-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+	
+	
+	<!--JQUERY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<!--SLIDER-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	
+	<!--MOMENT JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+		
+	<!--SCRIPTS-->
+	<script src="js/main.js"></script>
+		
+
+</head>
+	
+<body>
+	
+	<div id="selector-theme">
+		<div id="to-green"></div>
+		<div id="to-blue"></div>
+		<div id="to-red"></div>
+	</div>
+	<section id="global">
+
+		<!--cabecera-->
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+			</div>
+			
+			<div class="clearfix"></div>
+			
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					
+				</ul>
+			</nav>
+			
+		</header>
+
+		<!--slider-->
+		<div id="slider">
+			<div class="bxslider">
+			<div><img src="img/hojas.jpg" title="hojas" alt="hojas" ></div>
+			<div><img src="img/rojo.jpg" title="rojo" alt="rojo"></div>
+			<div><img src="img/cielo.jpg" title="cielo" alt="cielo"></div>
+			</div>
+		</div>
+
+		<!--contenido-->
+		<section id="content">
+			<div id="posts">
+				
+			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>Quien soy?</span></h4>
+					<img src="img/caracol.jpg" alt="Quien soy?">
+					<p>
+						
+					</p>
+				</div>
+					
+				<div id="login">
+					<h4><span>Identificate</span></h4>
+					<form>
+						<label for="name">
+						Nombre</label>
+						<input type="text" name="name" id="name">
+						
+						<br>
+								
+						<label for="email">
+						Correo/email</label>
+						<input type="text" name="email" id="email">
+						
+						<label for="password">
+						Contraseña</label>
+						<input type="text" name="password" id="password">
+						
+						<br>
+						
+					
+						
+						<input type="submit" value="Entrar" name="entrar">
+					</form>
+				</div>
+			</aside>
+			
+			<div class="clearfix"></div>
+			
+		</section>
+	</section>
+
+	<footer>
+		Curso de JavaScript.
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+</body>
+</html>
+
